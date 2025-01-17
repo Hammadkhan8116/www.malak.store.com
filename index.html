@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malak Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Malak Store</h1> 
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Welcome to Malak Store</h1>
+            <p>You can see best things in my store 
+            </p>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="card">
+            <img src="https://th.bing.com/th/id/OIF.KSzC9AUZt9JcpAoIQfpqrw?rs=1&pid=ImgDetMain" alt="LED Light" style="width: 200px; height:250px;">
+            <p><a href="https://admin.shopify.com/store/wkeymp-4n/products/8114852429996" target="_blank">View Product</a></p>
+        
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
+<section class="container">
+    <div class="card">
+        <a href="https://admin.shopify.com/store/wkeymp-4n/products/8114906103980" target="_blank">
+            <img src="https://cdn.globalso.com/lhotse-led/24-1.png" alt="Product 1" style="width:100%; height:auto;">
+            <h2>Product 1</h2>
+            <p>Click to view Product 1</p>
+        </a>
+    </div>
+    <div class="card">
+        <a href="https://admin.shopify.com/store/wkeymp-4n/products/8134227853484" target="_blank">
+            <img src="https://th.bing.com/th/id/OIP.JHUFYk8-_DIrJNJUCSi3YQHaHa?w=1500&h=1500&rs=1&pid=ImgDetMain" alt= "Product 2" style="width 200px; height: 250px;">
+
+        </a>
+    </div>
+    <div class="card">
+        <a href="https://admin.shopify.com/store/wkeymp-4n/products/8134227165356" target="_blank">
+            <img src="https://th.bing.com/th/id/OIP.7_FIKUvlxOGyphhc78ydrQHaHa?rs=1&pid=ImgDetMain" alt="Product 3 " style="width: 220px; height: 220px">
+</div>
+<script>
+    function showFullImage(imgElement) {
+        const lightbox = document.getElementById("lightbox");
+        const fullImage = document.getElementById("full-image");
+        fullImage.src = imgElement.src;
+        lightbox.style.display = "flex";
+    }
+
+    function hideFullImage() {
+        const lightbox = document.getElementById("lightbox");
+        lightbox.style.display = "none";
+    }
+
